@@ -21,3 +21,16 @@ Password for 'https://g562044@forge-sysnet.rmm.sagem':
 remote: Counting objects: 64175, done.
 remote: Compressing objects: 100% (40876/40876), done.
 eceiving objects:  22% (15118/64175), 32.95MiB | 72.00 KiB/s
+
+dnt@dnt-OptiPlex-7010:~/DNT$ git config -l
+http.postbuffer=1048576000
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+user.name=will
+user.email=will.li@sagemcom.com
+http.sslverify=false
+
+dnt@dnt-OptiPlex-7010:~/DNT$ echo $GIT_SSL_NO_VERIFY 
+1
