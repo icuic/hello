@@ -34,3 +34,6 @@ http.sslverify=false
 
 dnt@dnt-OptiPlex-7010:~/DNT$ echo $GIT_SSL_NO_VERIFY 
 1
+
+dnt@dnt-OptiPlex-7010:~/DNT$ git --version
+git version 2.17.1
